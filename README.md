@@ -15,7 +15,7 @@ Proje 1
 
 ## CEVAPLAR
 
-1. Insertion Sort Aşamaları
+1. Insertion Sort Aşamaları?
 
 * Adim 1: listedeki en kücük sayiya bakiyoruz. "2". Bu sayi ile ilk sayinin yerini degistiriyoruz. [2,27,16,22,18,6]
 * Adim 2: Listedeki en kücük ikinci sayiya bakiyoruz. "6". Bu sayi ile ikinci sayinin yerini degistiriyoruz. [2,6,16,22,18,27]
@@ -23,11 +23,18 @@ Proje 1
 * Adim 4: Listedeki en kücük dördüncü sayiya bakiyoruz. "18". Bu sayi ile dördüncü sayinin yerini degistiriyoruz. [2,6,16,18,22,27]
 * Adim 5: Listedeki en kücük besinci sayiya bakiyoruz. "22". Bu sayi zaten besinci sayi oldugu icin yerini degistirmiyoruz. Bu da son asama oluyor. [2,6,16,18,22,27]
 
+2. Big-O Gösterimi?
 
-2. Big-O Gösterimi
+O(n^2)
 
-3. Time Complexity
+3. Time Complexity?
 
-4. 18 Sayisi case kapsamindadir.
+- Worst case: Aradigimiz sayinin sonda olmasi,
+- Average case: Aradigimiz sayinin ortada olmasi, 
+- Best case: Aradigimiz sayinin dizinin en basinda olmasi
+
+4. Dizi siralandiktan sonra 18 Sayisi hangi case kapsamina girer?
+
+Dizinin son halinde "18" sayisi ortada oldugundan dolayi Average Case kapsamindadir: [2,6,16,18,22,27]
 
 [www.patika.dev](https://www.patika.dev/) 
