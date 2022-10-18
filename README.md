@@ -17,6 +17,11 @@ Proje 1
 
 1. Insertion Sort Aşamaları
 
+* Adim 1: listedeki en kücük sayiya bakiyoruz. "2". Bu sayi ile ilk sayinin yerini degistiriyoruz. [2,27,16,22,18,6]
+* Adim 2: Listedeki en kücük ikinci sayiya bakiyoruz. "6". Bu sayi ile ikinci sayinin yerini degistiriyoruz. [2,6,16,22,18,27]
+* Adim 3: Listedeki en kücük ücüncü sayiya bakiyoruz. "16". Bu sayi zaten ücüncü sayi oldugu icin yerini degistirmiyoruz. [2,6,16,22,18,27]
+* Adim 4: Listedeki en kücük dördüncü sayiya bakiyoruz. "18". Bu sayi ile dördüncü sayinin yerini degistiriyoruz. [2,6,16,18,22,27]
+* Adim 5: Listedeki en kücük besinci sayiya bakiyoruz. "22". Bu sayi zaten besinci sayi oldugu icin yerini degistirmiyoruz. Bu da son asama oluyor. [2,6,16,18,22,27]
 
 
 2. Big-O Gösterimi
